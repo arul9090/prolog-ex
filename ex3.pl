@@ -1,7 +1,7 @@
 
 
 /* Database */
-:- dynamic visited_state/2.
+:- dynamic(visited_state/2).
 
 /* Predicate */
 state(integer, integer).
